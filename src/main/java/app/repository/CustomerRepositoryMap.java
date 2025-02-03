@@ -46,4 +46,10 @@ public class CustomerRepositoryMap implements CustomerRepository{
             database.remove(id);
 
         }
+    // Во время разработки можно создавать временные методы main
+    // в целях ручного тестирования и дебага
+    // Такие методы потом удаляются (он не должен попасть в GitHub)
+//    public static void main(String[] args) {
+//        CustomerRepository repository = new CustomerRepositoryMap();
+//    }
 }
