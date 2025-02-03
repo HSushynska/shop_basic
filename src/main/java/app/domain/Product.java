@@ -35,6 +35,14 @@ private boolean active;
         this.price = price;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;

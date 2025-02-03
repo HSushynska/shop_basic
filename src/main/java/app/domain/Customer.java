@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
+// POJO - Plain Old Java Object
+
 public class Customer {
 
     private Long id;
