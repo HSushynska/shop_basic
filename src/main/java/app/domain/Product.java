@@ -15,6 +15,17 @@ private String title;
 private double price;
 private boolean active;
 
+    public Product(Long id, double price) {
+        this.id = id;
+        this.price = price;
+    }
+
+    public Product(String title, double price) {
+        this.title = title;
+        this.price = price;
+    }
+
+
     public boolean isActive() {
         return active;
     }
